@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="400dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
